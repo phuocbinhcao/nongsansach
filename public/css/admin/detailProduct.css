@@ -1,0 +1,37 @@
+body {
+    background-color: #355CCC
+}
+
+.card-body {
+    width: fit-content
+}
+
+
+
+.img-thumbnail {
+    border: none
+}
+
+.card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding-bottom: 10px
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 900
+}
+
+.card-text {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500
+}
+.des {
+    font-size: 10;
+    height: 6px;
+    width: 55%;
+    border-bottom:5px solid yellow;
+    margin: 14px 0
+}

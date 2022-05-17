@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.pagination {
+    text-align: center;
+    margin: 30px 30px 60px;
+    user-select: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.paginate li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 45px;
+}
+
+.previous-page,
+.next-page {
+    background: #cef7ba;
+    width: 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.next-page:hover {
+    transform: translateX(5px);
+}
+
+.current-page,
+.dots {
+    background: white;
+    margin:0px 5px ;
+    border-radius: 50%;
+    width: 20px;
+    cursor: pointer;
+}
+
+.activ {
+    background: #cef7ba;
+    border-bottom:1px solid white ;
+    box-shadow:0px 2px 10px 10px #f8ddcb;
+}
+
+.disable-page {
+    background: rgb(235, 233, 233);
+}
+
+.page-num {
+    color: #78a206;
+}
+.page-num:hover{
+    color: black;
+}
+
+.product {
+    animation: show 2s ease;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
